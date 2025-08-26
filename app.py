@@ -36,7 +36,7 @@ def home():
         # 🔹 Build Email (Plain + HTML)
         msg = Message(
             subject=f"📩 New message from {name} - Portfolio",
-            recipients=["clayhat.networks@gmail.com"],
+            recipients=["your_mail@gmail.com"],
         )
 
         # Fallback plain text
