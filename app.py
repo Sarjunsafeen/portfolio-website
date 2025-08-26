@@ -5,15 +5,15 @@ from email.utils import formataddr
 import threading
 
 app = Flask(__name__)
-app.secret_key = "supersecret"
+app.secret_key = "yoursupersecretkey"
 
 # 🔹 Flask-Mail Config
 app.config["MAIL_SERVER"] = "smtp.gmail.com"
 app.config["MAIL_PORT"] = 587
 app.config["MAIL_USE_TLS"] = True
-app.config["MAIL_USERNAME"] = "clayhat.networks@gmail.com"   # Your Gmail
-app.config["MAIL_PASSWORD"] = "lfkr djay maky nali"          # App Password
-app.config["MAIL_DEFAULT_SENDER"] = formataddr(("Portfolio Website", "clayhat.networks@gmail.com"))
+app.config["MAIL_USERNAME"] = "your_mail@gmail.com"   # Your Gmail
+app.config["MAIL_PASSWORD"] = "YOUR_APP_PASSWORD"          # App Password
+app.config["MAIL_DEFAULT_SENDER"] = formataddr(("Portfolio Website", "your_mail@gmail.com"))
 
 mail = Mail(app)
 
