@@ -38,7 +38,7 @@ A modern, responsive **Portfolio Website** built with **Flask** and **Bootstrap 
 ### 🔹 Projects Section
 ![Projects](static/image/E-commerce.png)
 ![Projects](static/image/Inventory_API.png)
-![Projects](static/image/E-commerce.png)
+![Projects](static/image/Protofolio.png)
 
 ---
 
